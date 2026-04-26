@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="1200" height="800" fill="#87CEEB"/>
+  
+  <!-- Sun -->
+  <circle cx="1000" cy="150" r="80" fill="#FFD700"/>
+  
+  <!-- Grass -->
+  <rect y="600" width="1200" height="200" fill="#90EE90"/>
+  
+  <!-- Cow body -->
+  <ellipse cx="400" cy="500" rx="200" ry="150" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+  
+  <!-- Cow head -->
+  <circle cx="600" cy="350" r="100" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+  
+  <!-- Snout -->
+  <ellipse cx="680" cy="380" rx="50" ry="40" fill="#FFB6C1" stroke="#000" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <ellipse cx="690" cy="385" rx="15" ry="12" fill="#000"/>
+  
+  <!-- Eyes -->
+  <circle cx="570" cy="320" r="15" fill="#000"/>
+  <circle cx="630" cy="320" r="15" fill="#000"/>
+  
+  <!-- Eye highlights -->
+  <circle cx="575" cy="315" r="5" fill="#FFF"/>
+  <circle cx="635" cy="315" r="5" fill="#FFF"/>
+  
+  <!-- Ears -->
+  <ellipse cx="520" cy="260" rx="30" ry="50" fill="#FFFFFF" stroke="#000" stroke-width="2"/>
+  <ellipse cx="680" cy="260" rx="30" ry="50" fill="#FFFFFF" stroke="#000" stroke-width="2"/>
+  <ellipse cx="520" cy="280" rx="15" ry="30" fill="#FFB6C1"/>
+  <ellipse cx="680" cy="280" rx="15" ry="30" fill="#FFB6C1"/>
+  
+  <!-- Horns -->
+  <path d="M 510 240 Q 480 200 460 150" stroke="#000" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 690 240 Q 720 200 740 150" stroke="#000" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Front legs -->
+  <rect x="320" y="600" width="40" height="120" fill="#8B7355" rx="10"/>
+  <rect x="380" y="600" width="40" height="120" fill="#8B7355" rx="10"/>
+  
+  <!-- Back legs -->
+  <rect x="480" y="600" width="40" height="120" fill="#8B7355" rx="10"/>
+  <rect x="540" y="600" width="40" height="120" fill="#8B7355" rx="10"/>
+  
+  <!-- Spots -->
+  <ellipse cx="350" cy="480" rx="50" ry="60" fill="#000" opacity="0.7"/>
+  <ellipse cx="480" cy="520" rx="40" ry="50" fill="#000" opacity="0.7"/>
+  <ellipse cx="580" cy="380" rx="30" ry="40" fill="#000" opacity="0.7"/>
+  
+  <!-- Tail -->
+  <path d="M 600 620 Q 700 600 750 650" stroke="#8B7355" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M 750 650 L 780 700" stroke="#FFD700" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Udder -->
+  <ellipse cx="450" cy="630" rx="50" ry="40" fill="#FFB6C1"/>
+  <circle cx="420" cy="670" r="12" fill="#FFB6C1"/>
+  <circle cx="450" cy="670" r="12" fill="#FFB6C1"/>
+  <circle cx="480" cy="670" r="12" fill="#FFB6C1"/>
+  
+  <!-- Clouds -->
+  <g fill="#FFF" opacity="0.8">
+    <ellipse cx="200" cy="100" rx="80" ry="40"/>
+    <ellipse cx="250" cy="80" rx="60" ry="35"/>
+    <ellipse cx="150" cy="120" rx="70" ry="35"/>
+  </g>
+  
+  <g fill="#FFF" opacity="0.8">
+    <ellipse cx="950" cy="250" rx="80" ry="40"/>
+    <ellipse cx="1000" cy="230" rx="60" ry="35"/>
+    <ellipse cx="900" cy="270" rx="70" ry="35"/>
+  </g>
+</svg>

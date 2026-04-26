@@ -1,0 +1,166 @@
+
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --accent-strong: #5dade2;
+            --text: #7f8c8d;
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--primary);
+            line-height: 1.7;
+            letter-spacing: 0.02em;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 0.05em;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: var(--accent);
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        p, li {
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: var(--card);
+            border: 1px solid #e9ecef;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px var(--shadow);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            padding: 25px;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            background: var(--card);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 2px 4px var(--shadow);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px var(--shadow);
+        }
+
+        .form-box {
+            margin-top: 20px;
+            display: grid;
+            gap: 18px;
+        }
+
+        .form-group {
+            display: grid;
+            gap: 8px;
+            color: var(--primary);
+        }
+
+        .form-group label {
+            font-weight: 700;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            background: var(--card);
+            color: var(--primary);
+            outline: none;
+            transition: border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+
+        .confirmation-note {
+            margin-top: 20px;
+            padding: 20px;
+            background: #e8f4fd;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+        }
+
+        .confirmation-note p {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+        }
+
+        .confirmation-note p:last-child {
+            margin-bottom: 0;
+        }
+
+        .footer { text-align: center; padding: 40px; color: var(--text); }
+        
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+            padding: 14px 26px;
+            border-radius: 25px;
+            font-weight: 700;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .badge {
+            background: linear-gradient(135deg, rgba(57,240,255,0.95), rgba(98,236,255,0.85));
+            color: #021232;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 0.95em;
+            margin-right: 5px;
+            box-shadow: 0 6px 16px rgba(57,240,255,0.18);
+        }

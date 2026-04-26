@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kais Lamiri | Dev & Scripting</title>
+    <style>
+        :root {
+            --primary: #2d3436;
+            --accent: #0984e3;
+            --code-bg: #2d3436;
+            --bg: #f5f6fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0984e3 0%, #2d3436 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        h2 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 5px; }
+
+        .project-card {
+            border-left: 5px solid var(--accent);
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+
+        code {
+            background: var(--code-bg);
+            color: #fab1a0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .terminal {
+            background: #1e1e1e;
+            color: #dcdcdc;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.9em;
+            overflow-x: auto;
+        }
+
+        .nav-back {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Développement & Scripting</h1>
+    <p>Architecture logicielle, Automatisation et Algorithmique</p>
+</header>
+
+<div class="container">
+    <a href="index.html" class="nav-back">← Retour au profil</a>
+
+    <div class="section">
+        <h2>Développement Python (PyQt5)</h2>
+        <p>Expertise dans la création d'interfaces graphiques interactives et d'outils d'évaluation logicielle.</p>
+        
+        <div class="project-card">
+            <h3>Projet : Evaluation System</h3>
+            <p>Développement d'un logiciel de gestion et d'évaluation avec une interface utilisateur fluide via <code>PyQt5</code>.</p>
+            <ul>
+                <li>Gestion des événements et signaux.</li>
+                <li>Intégration de formulaires dynamiques.</li>
+                <li>Optimisation du code pour la performance.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Scripting Web & Backend</h2>
+        <p>Maîtrise du côté serveur pour la création d'applications web robustes.</p>
+        
+        <div class="terminal">
+            <span style="color: #6c5ce7;">// Structure de connexion SQL en PHP</span><br>
+            $conn = new mysqli($host, $user, $pass, $db);<br>
+            if ($conn->connect_error) { die("Échec de la connexion"); }<br>
+            echo "Connexion réussie au système de Kais";
+        </div>
+        
+        <p style="margin-top:20px;">Utilisation intensive de <strong>PHP 8</strong> et <strong>SQL</strong> pour la manipulation de données et la sécurisation des requêtes.</p>
+    </div>
+
+    <div class="section">
+        <h2>Résolution de Problèmes</h2>
+        <p>Application des concepts mathématiques avancés à l'informatique :</p>
+        <div class="grid" style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <span style="background:#eee; padding:10px; border-radius:5px;">Modular Arithmetic</span>
+            <span style="background:#eee; padding:10px; border-radius:5px;">Data Validation</span>
+            <span style="background:#eee; padding:10px; border-radius:5px;">Complex Logic</span>
+        </div>
+    </div>
+
+</div>
+
+<div style="text-align: center; padding: 40px; color: #636e72;">
+    <p>Kais Lamiri - Portfolio Technique 2026</p>
+</div>
+
+</body>
+</html>

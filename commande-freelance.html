@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande Freelance | Kais Lamiri</title>
+    <link rel="stylesheet" href="giminay.css">
+</head>
+<body>
+
+<header>
+    <h1>Commande de Travail Freelance</h1>
+    <p>Des solutions web et techniques sur mesure pour vos projets.</p>
+</header>
+
+<div class="container">
+    <div class="section">
+        <h2>Pourquoi travailler avec moi ?</h2>
+        <ul>
+            <li>Développement web, systèmes et bases de données.</li>
+            <li>Respect des délais et communication claire.</li>
+            <li>Design professionnel et expérience utilisateur soignée.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Services Freelance</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Création de site</h3>
+                <p>Sites vitrines, portfolios et landing pages responsives.</p>
+            </div>
+            <div class="card">
+                <h3>Applications</h3>
+                <p>Scripts, outils métier et interfaces de gestion sur mesure.</p>
+            </div>
+            <div class="card">
+                <h3>Support technique</h3>
+                <p>Maintenance, optimisation et déploiement de projets.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Mes Coordonnées</h2>
+        <p>Pour toute question ou urgence, contactez-moi :</p>
+        <ul>
+            <li><strong>Email :</strong> <a href="mailto:kaislamiri1920@gmail.com">kaislamiri1920@gmail.com</a></li>
+            <li><strong>Téléphone :</strong> +33 6 00 00 00 00</li>
+            <li><strong>Site web :</strong> <a href="https://votre-site.com" target="_blank">votre-site.com</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Commander un projet</h2>
+        <p>Envoyez-moi votre demande avec le type de projet, le délai prévu et les fonctionnalités souhaitées.</p>
+        <form class="form-box" action="commande-freelance.php" method="post">
+            <div class="form-group">
+                <label for="client-name">Nom du client</label>
+                <input id="client-name" name="Nom" type="text" placeholder="Votre nom complet" required>
+            </div>
+            <div class="form-group">
+                <label for="client-email">Email</label>
+                <input id="client-email" name="Email" type="email" placeholder="Votre adresse email" required>
+            </div>
+            <div class="form-group">
+                <label for="client-phone">Téléphone</label>
+                <input id="client-phone" name="Téléphone" type="tel" placeholder="Numéro de téléphone" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-preference">Préférence de contact</label>
+                <select id="contact-preference" name="Préférence de contact">
+                    <option>Email</option>
+                    <option>Téléphone</option>
+                    <option>Les deux</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="project-type">Type de projet</label>
+                <select id="project-type" name="Projet">
+                    <option>Site web</option>
+                    <option>Application</option>
+                    <option>Maintenance / Support</option>
+                    <option>Autre</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="project-deadline">Délai souhaité</label>
+                <input id="project-deadline" name="Délai" type="text" placeholder="Par exemple : 2 semaines">
+            </div>
+            <div class="form-group">
+                <label for="project-budget">Budget estimé</label>
+                <input id="project-budget" name="Budget" type="text" placeholder="Par exemple : 500-1000€">
+            </div>
+            <div class="form-group">
+                <label for="project-details">Détails du projet</label>
+                <textarea id="project-details" name="Détails" rows="5" placeholder="Décrivez votre besoin, fonctionnalités, budget, etc." required></textarea>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="Accepter les termes" required>
+                    J'accepte les termes de service et la politique de confidentialité.
+                </label>
+            </div>
+            <button type="submit" class="button">Envoyer la demande</button>
+        </form>
+        <div class="confirmation-note">
+            <p><strong>Après l'envoi :</strong> Vous recevrez un email de confirmation. Je vous appellerai sous 24 heures pour discuter de votre projet et établir un devis détaillé.</p>
+            <p>Pour toute urgence, contactez-moi directement à <a href="mailto:kaislamiri1920@gmail.com" style="color: var(--accent);">kaislamiri1920@gmail.com</a>.</p>
+        </div>
+        <p style="margin-top: 15px;">Ou revenez à la page principale :</p>
+        <a href="gemini-code-1777193304110.html" class="badge" style="text-decoration: none; display: inline-block;">← Retour au portfolio</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 Kais Lamiri. Commandes freelance.</p>
+</div>
+
+</body>
+</html>

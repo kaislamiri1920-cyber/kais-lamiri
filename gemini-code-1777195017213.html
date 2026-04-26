@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kais Lamiri | Expertise Technique</title>
+    <style>
+        :root {
+            --primary: #2d3436;
+            --accent: #0984e3;
+            --python: #3776ab;
+            --php: #777bb4;
+            --bg: #f5f6fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2d3436 0%, #0984e3 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-top: 5px solid var(--accent);
+        }
+
+        .tech-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .tech-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .python-bg { background-color: var(--python); }
+        .php-bg { background-color: var(--php); }
+        .pyqt-bg { background-color: #41cd52; }
+
+        .code-block {
+            background: #2d3436;
+            color: #bdc3c7;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.85em;
+            overflow-x: auto;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        h2 { margin: 0; color: var(--primary); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Maîtrise Technique</h1>
+    <p>Focus sur Python, PHP et le développement d'interfaces PyQt5</p>
+</header>
+
+<div class="container">
+    <a href="index.html" class="nav-link">← Retour à l'accueil</a>
+
+    <div class="section">
+        <div class="tech-header">
+            <div class="tech-icon python-bg">Py</div>
+            <h2>Python 3.x</h2>
+        </div>
+        <p>Utilisé pour le scripting avancé et la logique métier. Python est mon langage de prédilection pour résoudre des problèmes algorithmiques complexes.</p>
+        <div class="code-block">
+            # Exemple de logique de traitement<br>
+            def traiter_donnees(liste):<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;return [x for x in liste if x % 2 == 0]
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="tech-header">
+            <div class="tech-icon pyqt-bg">Qt</div>
+            <h2>PyQt5 (Desktop GUI)</h2>
+        </div>
+        <p>Spécialisé dans la création d'applications de bureau professionnelles. Je conçois des interfaces utilisateur interactives liées à des scripts Python.</p>
+        <ul>
+            <li>Utilisation de <strong>Qt Designer</strong> pour le prototypage.</li>
+            <li>Gestion des signaux et des slots (Events).</li>
+            <li>Connexion aux bases de données via le code.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="tech-header">
+            <div class="tech-icon php-bg">PHP</div>
+            <h2>PHP & Backend</h2>
+        </div>
+        <p>Développement de scripts serveur pour la communication avec les bases de données SQL. Essentiel pour mes projets de gestion de données.</p>
+        <div class="code-block">
+            // Requête SQL sécurisée via PHP<br>
+            $sql = "SELECT * FROM utilisateurs WHERE id = ?";<br>
+            $stmt = $pdo->prepare($sql);
+        </div>
+    </div>
+
+</div>
+
+<footer style="text-align: center; padding: 20px; color: #95a5a6;">
+    Kais Lamiri • Expertises 2026
+</footer>
+
+</body>
+</html>

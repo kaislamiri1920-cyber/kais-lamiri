@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kais Lamiri | Design & Création</title>
+    <style>
+        :root {
+            --primary: #2d3436;
+            --accent: #a29bfe; /* Violet doux pour le côté créatif */
+            --bg: #f5f6fa;
+            --gradient: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2d3436 0%, #6c5ce7 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.03);
+            border-bottom: 4px solid var(--accent);
+        }
+
+        .visual-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .visual-card {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            transition: 0.3s;
+            border: 1px solid #eee;
+        }
+
+        .visual-card:hover {
+            transform: scale(1.05);
+            background: white;
+            border-color: var(--accent);
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #6c5ce7;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .creative-tag {
+            display: inline-block;
+            background: var(--gradient);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+
+        h2 { color: var(--primary); margin-top: 0; font-weight: 300; letter-spacing: 1px; }
+        b { color: #6c5ce7; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Design & Création</h1>
+    <p>Esthétique digitale, Expérience utilisateur et Identité visuelle</p>
+</header>
+
+<div class="container">
+    <a href="index.html" class="nav-link">← Retour au profil</a>
+
+    <div class="section">
+        <span class="creative-tag">Expérience</span>
+        <h2>UI / UX Design</h2>
+        <p>Ma démarche repose sur l'équilibre entre la <b>fonctionnalité</b> et le <b>plaisir visuel</b>. Je conçois des interfaces qui ne sont pas seulement belles, mais surtout intuitives.</p>
+        <div class="visual-grid">
+            <div class="visual-card">
+                <strong>Wireframing</strong>
+                <p style="font-size: 0.8em;">Structure et ergonomie des pages.</p>
+            </div>
+            <div class="visual-card">
+                <strong>Prototypage</strong>
+                <p style="font-size: 0.8em;">Flux d'interaction dynamiques.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <span class="creative-tag">Contenu</span>
+        <h2>Contenu Digital & Social Media</h2>
+        <p>Expert dans la création de supports visuels pour les réseaux sociaux, notamment <b>Instagram</b>. Je maîtrise l'art de créer des ambiances (templates, stories, edits) qui captent l'attention.</p>
+        <ul>
+            <li>Création de templates personnalisés.</li>
+            <li>Retouche photographique et colorimétrie.</li>
+            <li>Montage de visuels harmonieux et modernes.</li>
+        </ul>
+    </div>
+
+    <div class="section" style="background: linear-gradient(to right, #ffffff, #fafaff);">
+        <span class="creative-tag">Vision</span>
+        <h2>Philosophie Esthétique</h2>
+        <p>Pour moi, le design est une forme de langage. Inspiré par le <b>minimalisme moderne</b> et la précision technique, je cherche toujours à épurer mes créations pour ne garder que l'essentiel : l'émotion et le message.</p>
+    </div>
+
+</div>
+
+<footer style="text-align: center; padding: 40px; color: #b2bec3;">
+    Kais Lamiri • Creative Mind 2026
+</footer>
+
+</body>
+</html>

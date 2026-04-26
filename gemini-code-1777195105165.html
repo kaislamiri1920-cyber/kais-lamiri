@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kais Lamiri | Bases de Données</title>
+    <style>
+        :root {
+            --primary: #2d3436;
+            --accent: #e67e22; /* Orange pour différencier la partie Data */
+            --sql: #f39c12;
+            --bg: #f5f6fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2d3436 0%, #e67e22 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--accent);
+        }
+
+        .db-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+
+        .db-table th, .db-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .db-table th {
+            background-color: #f8f9fa;
+            color: var(--accent);
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .badge-sql {
+            background: #34495e;
+            color: #f1c40f;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.8em;
+        }
+
+        h2 { color: var(--primary); margin-top: 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Architecture des Données</h1>
+    <p>Conception, Optimisation et Gestion SQL</p>
+</header>
+
+<div class="container">
+    <a href="index.html" class="nav-link">← Retour au profil</a>
+
+    <div class="section">
+        <h2>Analyse & Modélisation</h2>
+        <p>Avant le code, il y a la réflexion. Je maîtrise les étapes de conception pour garantir l'intégrité des données.</p>
+        <ul>
+            <li><strong>MCD :</strong> Création de Modèles Conceptuels de Données clairs.</li>
+            <li><strong>Normalisation :</strong> Application des formes normales pour éviter la redondance.</li>
+            <li><strong>Dictionnaire de données :</strong> Définition précise de chaque entité et propriété.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Langage SQL</h2>
+        <p>Interrogation et manipulation de bases de données relationnelles avec précision.</p>
+        <p><span class="badge-sql">SELECT</span> <span class="badge-sql">INSERT</span> <span class="badge-sql">UPDATE</span> <span class="badge-sql">DELETE</span></p>
+        
+        <table class="db-table">
+            <thead>
+                <tr>
+                    <th>Compétence</th>
+                    <th>Application</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Requêtes Complexes</td>
+                    <td>Jointures (INNER, LEFT) et fonctions d'agrégation.</td>
+                </tr>
+                <tr>
+                    <td>Contraintes</td>
+                    <td>Gestion des Clés Primaires et Étrangères (FK/PK).</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Environnement phpMyAdmin</h2>
+        <p>Gestion efficace des serveurs de bases de données via l'interface <strong>phpMyAdmin</strong> sous environnement WampServer.</p>
+        <div style="background: #e1f5fe; padding: 15px; border-radius: 8px; color: #0277bd; font-size: 0.9em;">
+            💡 <strong>Note technique :</strong> Capacité à exporter/importer des bases de données, gérer les privilèges utilisateurs et optimiser les index pour des recherches plus rapides.
+        </div>
+    </div>
+
+</div>
+
+<footer style="text-align: center; padding: 20px; color: #95a5a6;">
+    Kais Lamiri • Database Specialist 2026
+</footer>
+
+</body>
+</html>
